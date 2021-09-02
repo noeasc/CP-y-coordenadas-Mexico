@@ -1,4 +1,4 @@
-# CP-y-coordenadas-México
+# CP y coordenadas de México
 
     Información sobre los estados, municipios y colonias de todo México.
     En este archivo sql, encontrarás al ser ejecutado se crerá una base de datos con 3 tablas
