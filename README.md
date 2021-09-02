@@ -1,6 +1,8 @@
 # CP-y-coordenadas-M-xico
-Información sobre los estados, municipios y colonias de todo México.
-En este archivo sql, encontrarás al ser ejecutado se crerá una base de datos con 3 tablas
+
+    Información sobre los estados, municipios y colonias de todo México.
+    En este archivo sql, encontrarás al ser ejecutado se crerá una base de datos con 3 tablas
+
     -estados:
         Tabla con los 32 estados, ordenados con las claves que asigna el INEGI y 
         mismas que maneja correos de México, verán que el orden no es completamente alfabético, 
@@ -24,10 +26,10 @@ En este archivo sql, encontrarás al ser ejecutado se crerá una base de datos c
         Incluyen latitud y longitud en caso que alguien desee hacer uso de algún mapa, puede usar estas coordenadas
         para centrar el mapa.
         
-Las tablas utilizan el motor InnoDB, están relacionadas las 3 entre sí y tienen el on update restrict on delete restrict
+    Las tablas utilizan el motor InnoDB, están relacionadas las 3 entre sí y tienen el on update restrict on delete restrict
 
-Se recomienda no cambiar los ID de nada en la tabla, estos ID corresponden a las claves que utilizan las instituciones
-de gobierno y órganos públicos autónomos, por ejemplo si el estado Jalisco es el 14 y el municipio de Atotonilco el Alto
-es el 013, el municipio de Atotonilco el Alto, Jalisco tendrá el ID 14013, dichas claves 
-(14 para Jalisco y 013 para Atotonilco el Alto por ejemplo) son las que aparecen en toda institución publica, inclusive
-en el INE, ¡Verificalo!
+    Se recomienda no cambiar los ID de nada en la tabla, estos ID corresponden a las claves que utilizan las instituciones
+    de gobierno y órganos públicos autónomos, por ejemplo si el estado Jalisco es el 14 y el municipio de Atotonilco el Alto
+    es el 013, el municipio de Atotonilco el Alto, Jalisco tendrá el ID 14013, dichas claves 
+    (14 para Jalisco y 013 para Atotonilco el Alto por ejemplo) son las que aparecen en toda institución publica, inclusive
+    en el INE, ¡Verificalo!
