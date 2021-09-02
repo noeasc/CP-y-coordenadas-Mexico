@@ -1,6 +1,5 @@
 # CP-y-coordenadas-M-xico
 Información sobre los estados, municipios y colonias de todo México.
-
 En este archivo sql, encontrarás al ser ejecutado se crerá una base de datos con 3 tablas
     -estados:
         Tabla con los 32 estados, ordenados con las claves que asigna el INEGI y 
